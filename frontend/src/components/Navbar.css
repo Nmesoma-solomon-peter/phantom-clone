@@ -1,0 +1,48 @@
+/* .navbar{
+    background-color: black;
+} */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 5;
+}
+.navcontainer-fluid {
+  padding: 1% 1%;
+}
+.logo {
+  height: 37px;
+}
+.nav-btn {
+  border-radius: 50px;
+  /* height: 40px; */
+  font-size: 18px;
+  /* align-items: center; */
+}
+
+/* unvisited link */
+.nav-link:link {
+  color: #aeafb0;
+}
+
+/* visited link */
+.nav-link:visited {
+  color: #aeafb0;
+}
+
+/* mouse over link */
+
+.nav-link:hover {
+  /* color: #fff; */
+  border-bottom: 2px solid #fff;
+}
+
+/* selected link */
+.nav-link:active {
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 19px;
+}

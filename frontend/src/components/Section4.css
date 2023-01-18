@@ -1,0 +1,81 @@
+.sec4introdiv{
+    justify-content: center;
+    text-align: center;
+}
+.sec4__introp{
+    color: #AEAFB0;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.sec4row{
+    justify-content: space-between;
+}
+.sec4card__col{
+    background-color: #35363A;
+    border-radius: 20px;
+    padding-left: 50px;
+    width: 600px;
+}
+.sec4h5{
+    color:#fff;
+    font-size: 40px;
+}
+.sec4p{
+    color: #AEAFB0;
+    font-size: 25px;
+    font-weight:510;
+}
+
+.colum{
+    background-color: #232426;
+    width:390px;
+    border-radius: 15px;
+}
+.columhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cheadinner{
+    margin-left: 20px;
+    flex: 1;
+}
+.avater1{
+    width: 50px;
+    height: 50px;
+}
+.sec4cardp{
+    color: #AEAFB0;
+    margin-top: -10px;
+}
+.twitlogo{
+    object-fit: contain;
+    /* width: 30px;
+    margin-top: -30px; */
+}
+.columbodyp{
+    color:#AEAFB0;
+}
+.lastintro{
+    margin-top: 200px;
+}
+.browsericons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.browser_img{
+    object-fit: contain;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.browser__btn{
+    background-color: #35363A;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}

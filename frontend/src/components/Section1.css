@@ -1,0 +1,51 @@
+.seccontainer-fluid{
+    padding: 7% 5%;
+    background-color: #2C2D30;
+}
+.handimg{
+    width: 700px;
+    height: 1000px;
+    color: black;
+    margin-left: 50px;
+}
+.new{
+    background-color: #379237;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.newbtn{
+    background-color: #2C3333;
+    /* background-color: #1B2021; */
+    border-radius: 15px;
+    padding: 5px;
+}
+.sec1h1{
+    font-size: 70px;
+    width: 500px;
+    /* height: 300px; */
+}
+.sec1intro{
+    font-size: 25px;
+    color: #A9A9A9;
+
+}
+.sec1download{
+    border-radius: 30px;
+    padding: 16px 20px;
+    font-weight: bold;
+}
+.sec1watch{
+    padding: 16px 20px;
+    border-radius: 30px;
+    background-color: #2C3333;
+    align-items: center;
+    font-weight: bold;
+
+}
+.sec1lastp{
+    color: #D3D3D3;
+}
+.sec1row1{
+    margin-top: 90px;
+}

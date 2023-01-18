@@ -1,0 +1,21 @@
+.card1{
+    border-radius: 20px;
+    height: 30vw;
+    margin-top: -300px;
+    position: relative;
+    /* top: 1000px;
+    left: 70px; */
+    /* right: 70px; */
+    z-index: 2;
+    opacity: 1;
+}
+.card1img{
+    z-index: -1;
+}
+.card1text{
+    font-size: 60px;
+    margin: 20% 7%;
+}
+/* .secondcard{
+    z-index: -5;
+} */
