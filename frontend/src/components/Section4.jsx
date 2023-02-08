@@ -32,7 +32,7 @@ function Section4() {
                         scale: 0.9,
                     }}
                     className='col col-md-5 sec4card__col'>
-                    <img src={sec4a} alt='sec4a' className='mt-5 mb-5 ' />
+                    <img src={sec4a} alt='sec4a' className='mt-5 mb-5 s4img  s4img ' />
                     <h5 className='sec4h5'>Non-Custodial</h5>
                     <p className='sec4p'>We never have access to any of your data or funds. Ever.</p>
                 </motion.div>
@@ -41,7 +41,7 @@ function Section4() {
                         scale: 0.9,
                     }}
                     className='col col-md-5 sec4card__col'>
-                    <img src={sec4b} alt='sec4b' className='mt-5 mb-5 ' />
+                    <img src={sec4b} alt='sec4b' className='mt-5 mb-5  s4img ' />
                     <h5 className='sec4h5'>Ledger Support</h5>
                     <p className='sec4p'>For additional security you can connect your hardware wallet.</p>
                 </motion.div>
@@ -53,7 +53,7 @@ function Section4() {
                         scale: 0.9,
                     }}
                     className='col col-md-5 sec4card__col'>
-                    <img src={sec4c} alt='sec4a' className='mt-5 mb-5 ' />
+                    <img src={sec4c} alt='sec4a' className='mt-5 mb-5  s4img' />
                     <h5 className='sec4h5'>Privacy</h5>
                     <p className='sec4p'>Phantom doesn’t track any personal identifiable information, your account addresses, or asset balances.</p>
                 </motion.div>
@@ -62,7 +62,7 @@ function Section4() {
                         scale: 0.9,
                     }}
                     className='col col-md-5 sec4card__col'>
-                    <img src={sec4d} alt='sec4a' className='mt-5 mb-5 ' />
+                    <img src={sec4d} alt='sec4a' className='mt-5 mb-5  s4img ' />
                     <h5 className='sec4h5'>Biometric authentication</h5>
                     <p className='sec4p'>Protect your assets on the go with the convenience you expect.</p>
                 </motion.div>
@@ -81,12 +81,12 @@ function Section4() {
                 <div className='col col-md-4'></div>
             </div> */}
 
-            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-5'>
+            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-5 twiit'>
                 <motion.div
                     whileHover={{
                         scale: 1.1,
                     }}
-                    className='colum me-4 mb-4'>
+                    className='colum mb-4'>
                     <div className='columhead'>
                         <img src={avater1} alt='avater1' className='avater1' />
                         <div className='cheadinner mt-3'>
@@ -106,7 +106,7 @@ function Section4() {
                     whileHover={{
                         scale: 1.1,
                     }}
-                    className='colum me-4 mb-4'>
+                    className='colum  mb-4'>
                     <div className='columhead'>
                         <img src={avater2} alt='avater1' className='avater1' />
                         <div className='cheadinner mt-3'>
@@ -168,7 +168,7 @@ function Section4() {
                     whileHover={{
                         scale: 1.1,
                     }}
-                    className='colum'>
+                    className='colum lasst'>
                     <div className='columhead'>
                         <img src={avater5} alt='avater1' className='avater1' />
                         <div className='cheadinner mt-3'>

@@ -1,42 +1,56 @@
 .seccontainer-fluid{
-    padding: 7% 5%;
+    padding: 5% 5%;
     background-color: #2C2D30;
 }
 .handimg{
-    width: 700px;
-    height: 1000px;
+    /* width: 700px; */
+    width: 120%;
+    /* height: 1000px; */
+    height: 100%;
     color: black;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 5%;
 }
 .new{
     background-color: #379237;
-    padding: 5px;
+    /* padding: 5px; */
+    padding: 1%;
     border-radius: 30px;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 0.7em;
 }
 .newbtn{
     background-color: #2C3333;
     /* background-color: #1B2021; */
     border-radius: 15px;
-    padding: 5px;
+    /* padding: 5px; */
+    padding: 2%;
+    font-size: 0.9em;
+    width: 60%;
+}
+.bi-chevron-right {
+    margin: 0%;
 }
 .sec1h1{
-    font-size: 70px;
-    width: 500px;
+    /* font-size: 70px; */
+    font-size: 3em;
+    width: 300px;
     /* height: 300px; */
 }
 .sec1intro{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.4em;
     color: #A9A9A9;
-
 }
 .sec1download{
     border-radius: 30px;
-    padding: 16px 20px;
+    /* padding: 16px 20px; */
+    padding: 2% 5%;
     font-weight: bold;
 }
 .sec1watch{
-    padding: 16px 20px;
+    /* padding: 16px 20px; */
+    padding: 2% 5%;
     border-radius: 30px;
     background-color: #2C3333;
     align-items: center;
@@ -47,5 +61,34 @@
     color: #D3D3D3;
 }
 .sec1row1{
-    margin-top: 90px;
+    /* margin-top: 90px; */
+    margin-top: 15%;
+}
+@media (max-width:768px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+.handimg{
+    display: none;
+}
+/* .seccontainer-fluid{
+    padding: 10%;
+}
+.sec1h1{
+    width: 250px;
+    font-size: 40px;
+} */
+/* .sec1intro{
+    font-size: 27px;
+    margin-left: 2%;
+} */
+
+/* .sec1watch{
+    width: 1%;
+    height: 2px;
+}
+.sec1download{
+    width: 1px;
+} */
+/* .btn{
+    font-size: 13px;
+} */
 }

@@ -19,7 +19,7 @@ function section1() {
                         <p className='mt-5 mb-5  sec1intro'>
                             Phantom makes it safe & and easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.
                         </p>
-                        <div className='mb-4'>
+                        <div className='mb-4 sec1btn'>
                             <motion.button
                                 whileHover={{
                                     scale: 1.3,

@@ -1,0 +1,38 @@
+.logorow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.supheader {
+  background-color: #4e44ce;
+  padding: 2% 19%;
+}
+.supheadp{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.375;
+}
+.input-field{
+    background-color: #6057D3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    width: 100%;
+}
+input{
+    width: 100%;
+    border: 0;
+    background: #6057D3;
+    outline: 0;
+    border-radius: 10px;
+    padding: 18px 15px;
+    color:#fff
+}
+::placeholder {
+    color:#fff;
+    font-size: 1em;
+}
+.bi{
+    margin-left: 20px;
+}

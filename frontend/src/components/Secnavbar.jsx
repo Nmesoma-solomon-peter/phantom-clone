@@ -1,14 +1,14 @@
 import React from 'react'
-import "./Navbar.css"
+import "./Secnavbar.css"
 import logo from '../assets/logo.png'
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 
 
-function Navbar() {
+function Secnavbar() {
     return (
         <div className='header'>
-            <nav className="navbar bg-primary navbar-expand-lg navbar-dark navcontainer-fluid">
+            <nav className="navbar secnavbar navbar-expand-lg navbar-dark navcontainer-fluid">
                 <div className="container-fluid">
                     <a className="navbar-brand me-5" href="/frontend"><img src={logo} alt="logo" className='logo' /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item me-5">
-                                <Link to='/frontend' style={{ textDecoration: 'none' }} >
+                                <Link to='/frontend' style={{ textDecoration: 'none' }}>
                                     <p className="nav-link active text-white" aria-current="page">Overview</p>
                                 </Link>
                             </li>
@@ -40,7 +40,7 @@ function Navbar() {
                         </ul>
                         <motion.button whileHover={{
                             scale: 1.3,
-                        }} type="button" className="btn nav-btn bg-secondary ms-auto text-white btn-lg ">Download</motion.button>
+                        }} type="button" class="btn nav-btn bg-secondary ms-auto text-white btn-lg ">Download</motion.button>
 
 
                     </div>
@@ -50,4 +50,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Secnavbar

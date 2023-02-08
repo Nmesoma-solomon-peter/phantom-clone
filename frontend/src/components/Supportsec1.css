@@ -1,0 +1,68 @@
+.supportsec1 {
+  background-color: #fafaff;
+  padding: 3% 19%;
+}
+
+.kard1 {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  border: 1px solid #DEE4EB;
+}
+.ctxt {
+  flex: 1;
+  margin-left: 6%;
+}
+.kh3 {
+  color: #4e44ce;
+}
+.kardbi {
+  color: #4e44ce;
+  font-size: 30px;
+  align-self: center;
+}
+.kardlicon {
+  border: 1px solid #DEE4EB;
+  /* vertical-align: middle; */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.starsec{
+    flex:1;
+}
+.lastdiv{
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+padding-bottom: 50px;
+}
+.lastbot{
+    width: 120px;
+    margin-left: 43%;
+    margin-bottom: 10px;
+    border: 2px solid #DEE4EB;
+    padding: 2% ;
+    border-radius: 3px;
+}
+@media (max-width:576px) {
+  .supportsec1 {
+    background-color: #fafaff;
+    padding: 2% 10%;
+  }
+  .lastbot{
+    width: 120px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    border: 2px solid #DEE4EB;
+    padding: 2% ;
+    border-radius: 3px;
+}
+}

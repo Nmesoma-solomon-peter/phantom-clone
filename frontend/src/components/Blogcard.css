@@ -1,0 +1,23 @@
+.blogcontainer-fluid {
+  padding: 5% 8%;
+  background-color: #2c2d30;
+}
+.cardimg {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 20px;
+}
+.cardp {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+@media (max-width: 576px) {
+  /* .bcard {
+    width: 100%;
+    background-color: #fff;
+  } */
+  .cardp{
+    font-size: 2em;
+  }
+}
