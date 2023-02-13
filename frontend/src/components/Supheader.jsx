@@ -9,8 +9,8 @@ function Supheader() {
         <div className='supheader text-white'>
             <div>
                 <div className='logorow'>
-                    <a className="navbar-brand me-5" href="/frontend"><img src={logo} alt="logo" className='logo suplogo' /></a>
-                    <Link to={'/frontend'} style={{textDecoration: 'none',color:'#fff'}}>
+                    <a className="navbar-brand me-5" href="/"><img src={logo} alt="logo" className='logo suplogo' /></a>
+                    <Link to={'/'} style={{textDecoration: 'none',color:'#fff'}}>
                         <p>Home</p>
 
                     </Link>

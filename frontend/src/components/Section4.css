@@ -18,7 +18,7 @@
   border-radius: 20px;
   /* padding-left: 50px; */
   padding-left: 5%;
-  width: 560px;
+  width: 600px;
 }
 .sec4h5 {
   color: #fff;
@@ -32,10 +32,10 @@
 
 .colum {
   background-color: #232426;
-  /* width: 390px; */
-  width: 350px;
+  width: 390px;
+  /* width: 350px; */
   border-radius: 15px;
-  margin-right: 2%;
+  margin-right: 1%;
 }
 .columhead {
   display: flex;

@@ -29,9 +29,11 @@
         background-color: #4E44CE;
         padding-top: 30%;
         padding-bottom: 5%;
+        width: 100%;
     }
     .securityh1{
         font-size: 2em;
+        width: 90%;
     }
     .Secu__intro{
         justify-content: center;
@@ -41,7 +43,7 @@
         margin-left: 5%;
     }
     .securityp{
-        width: 100%;
+        width: 90%;
         /* margin: auto; */
         font-size: 1.3em;
         font-weight: 500;
